@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  onim:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2024-08-20T21:58:40.712264-05:00"
+    description: A Helm chart for Kubernetes
+    digest: e65386c4a7f65ca6761e5e36043f4d701ada7d8b2f24193940521769b1189c2e
+    name: onim
+    type: application
+    urls:
+    - charts/onim-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-20T21:58:40.706586-05:00"

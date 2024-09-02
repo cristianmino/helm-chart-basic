@@ -27,7 +27,9 @@ spec:
               cpu: {{ .Values.resources.limits.cpu }}
               memory: {{ .Values.resources.limits.memory }}
           env:
-            - name: USER_NAME
+            - name: "password"
+              value: "{{ .Values.onimApp.pass }}"
+            - name: "username"
               value: "{{ .Values.onimApp.user }}"
-            - name: PASSWORD
-              value: "{{ .Values.onimApp.password }}"
+            - name: "Acredentials"
+              value: "{{ .Values.Acredentials }}"

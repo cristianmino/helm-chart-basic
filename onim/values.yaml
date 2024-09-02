@@ -13,8 +13,10 @@ resources:
     cpu: "200m"
     memory: "512Mi"
 
+Acredentials: "test@A4"
+
 onimApp:
-  password: "defaultpass1234"
+  pass: ".ultpAss1234"
   user: "defaultuser"
 
 service:

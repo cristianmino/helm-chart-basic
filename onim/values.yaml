@@ -13,11 +13,12 @@ resources:
     cpu: "200m"
     memory: "512Mi"
 
-Acredentials: "test@A4"
 
-onimApp:
-  pass: ".ultpAss1234"
-  user: "defaultuser"
+pass: ".ultpAss1234"
+user: "defaultuser"
+Acredentials: "test@A4"
+Dbpassword: "password"
+
 
 service:
   type: ClusterIP
